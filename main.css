@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 121px  ;
+}
+.header_list {
+    display: flex;
+    gap: 53px;
+    list-style: none;
+}
+.header_list_item {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0px 7px 5px #ff0000;
+}
+.main_image {
+    width: 550px;
+    height: 509px; 
+    margin-top: 76px;
+}
+.section_wrapper {
+    display: flex;
+    gap: 57px;
+}
+.boxses_main_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.box_wrapper_1 {
+    display: flex;
+    gap: 97px;
+}
+.box1 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px 0px #2fc63c;
+    background: #ffffff;
+    margin-top: 76px;
+}
+.box2 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 29px 0px #64646f33;
+    background: #ffffff;
+    margin-top: 76px;
+}
+.box3 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px;
+    box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+    background: #ffffff;
+    margin-top: 76px;
+}
+.box_wrapper_2 {
+  display: flex;
+  gap: 97px;
+}
+.box4 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px #00000059;
+  background: #ffffff;
+  margin-top: 42px;
+}
+.box5 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px #000000ab;
+  background: #ffffff;
+  margin-top: 42px;
+}
+.box6 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px 0px #ff0000;
+  background: #ffffff;
+  margin-top: 42px;
+}
+.box_wrapper_3 {
+  display: flex;
+  gap: 97px;
+}
+.box7 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 24px 0px #007ffdeb;
+  background: #ffffff;
+  margin-top: 55px;
+}
+.box8 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 0px 7px 36px 0px #64646fa8;
+  background: #ffffff;
+  margin-top: 55px;
+}
+.box9 {
+  width: 133px;
+  height: 133px;
+  border-radius: 5px;
+  box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+  background: #ffffff;
+  margin-top: 55px;
+}
+.image {
+    background-image: url("./images/Vector.svg");
+    width: 100px;
+    height: 100px;
+    color: #5a9f5c;
+}
